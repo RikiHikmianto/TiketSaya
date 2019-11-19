@@ -99,7 +99,7 @@
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="24dp"
                 android:fontFamily="@font/medium"
-                android:text="$ 392"
+                android:text="$ 200"
                 android:textColor="@color/greenPrimary"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"

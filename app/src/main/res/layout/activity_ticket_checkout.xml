@@ -80,7 +80,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="15dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -115,28 +115,31 @@
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="32dp"
                     android:layout_marginTop="5dp"
                     android:orientation="horizontal">
 
                     <Button
+                        android:id="@+id/btnmines"
                         android:layout_width="25dp"
                         android:layout_height="36dp"
                         android:background="@drawable/btnmines" />
 
                     <TextView
+                        android:id="@+id/textjumlahtiket"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginRight="12dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
                         android:fontFamily="@font/regular"
-                        android:text="2"
+                        android:text="0"
                         android:textColor="@color/blackPrimary"
                         android:textSize="20sp" />
 
                     <Button
+                        android:id="@+id/btnpls"
                         android:layout_width="25dp"
-                        android:layout_height="28dp"
+                        android:layout_height="29dp"
                         android:background="@drawable/btnpls" />
 
                 </LinearLayout>
@@ -201,6 +204,7 @@
                     android:textSize="14dp" />
 
                 <TextView
+                    android:id="@+id/textmybalance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="4dp"
@@ -233,12 +237,13 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/texttotalharga"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/medium"
-                android:text="US$ 200"
+                android:text="US$ 0"
                 android:textColor="@color/greenPrimary"
                 android:textSize="28sp" />
 
@@ -249,7 +254,7 @@
         android:id="@+id/btn_buy_ticket"
         android:layout_width="260dp"
         android:layout_height="55dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/bg_btn_green_primary"
         android:fontFamily=""
@@ -263,7 +268,7 @@
         android:layout_width="75dp"
         android:layout_height="55dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/bg_btn_white_primary"
         android:gravity="center"
         app:layout_constraintStart_toStartOf="parent"
@@ -276,4 +281,14 @@
             android:src="@drawable/ic_arrow_back_black_24dp" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/notice_money"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/peringatan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
