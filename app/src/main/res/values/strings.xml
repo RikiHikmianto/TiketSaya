@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IraJayaTiket</string>
+    <string name="slogan">Wisata Jadi Lebih Asik!</string>
+    <string name="signin">SIGN IN</string>
+    <string name="newaccount">NEW ACCOUNT</string>
+    <string name="lanjut">CONTINUE</string>
+    <string name="creatnewaccount">Creat New Account</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="email_label">Email Address</string>
+    <string name="name_label">Name</string>
+    <string name="bio_label">Your Passion?</string>
+    <string name="explore">EXPLORE NOW</string>
+    <string name="view_ticket">VIEW TICKET</string>
+    <string name="dashboard">MY DASHBOARD</string>
+    <string name="save">SAVE PROFILE</string>
+</resources>
