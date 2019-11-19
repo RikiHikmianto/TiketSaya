@@ -6,7 +6,7 @@
     tools:context=".SplashAct">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/app_logo"
         android:layout_width="240dp"
         android:layout_height="110dp"
         android:layout_marginTop="210dp"
@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/app_subtittle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -26,6 +27,6 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/app_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
